@@ -1,0 +1,431 @@
+/* Estilos generales */
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Animación de desplazamiento lateral para el cuerpo */
+body {
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+/* Animación de promociones */
+.imagen img {
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.imagen:hover img {
+    transform: scale(1.1);
+}
+
+/* Animación de redes sociales */
+.social-icons a:hover img {
+    animation: bounce 0.1s ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateX(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* Resto de tu CSS actual... */
+
+ /* Estilo para la sección de horarios y precios */
+ /* Estilo para las secciones de horarios y promociones */
+   
+
+body {
+    font-family: Arial, sans-serif;
+    position: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("fondocosmic.png")no-repeat center center fixed ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("fondocosmic.png");
+    background-size: 103%;
+    z-index: -1;
+    overflow-x: hidden;
+    width: 100%;
+    height: 60%;
+}
+/* Estilos para el menú */
+
+/* Estilos para el menú */
+nav {
+    padding: 9px 0 5px 17px; /* Ajusta el padding en vertical y horizontal */
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+    position: fixed;
+    background: rgb(0, 0, 0, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1002;
+}
+
+
+.logo {
+    max-width: 120px; /* Ajusta el tamaño máximo del logo */
+    transition: max-width 0.3s;
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Mueve el logo hacia la derecha <<<(centro) */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye las opciones de menú */
+    flex-grow: 1; /* Permite que las opciones de menú ocupen todo el espacio restante */
+}
+
+li {
+   
+    margin-right: 45px;
+    transition: margin-top 0.3s;
+}
+
+li:hover {
+    margin-top: 5px; /* Ajusta la cantidad que deseas que bajen los elementos al pasar el mouse */
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+   
+}
+.logo-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+/*Estilos de contacto redes sociales*/
+.social-contact {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color:/* #3f2817*/ #212529;
+    padding: 5px 10px;
+    width: 100%;
+    height: 147px;
+    
+}
+
+/* Estilos para la sección de contactos */
+/* Estilos para la sección de mensajes en columna */
+
+
+.left-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+margin-bottom: 2px;
+  margin-left: 80px;
+ 
+ }
+  /* Nueva regla para ajustar el margen inferior de los párrafos */
+  .left-message p {
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: -16px;
+
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: trasform 0.3s;
+    margin-right: 110px;
+    margin-left: -1px;/*para ajustar la ditancia entre icono*/
+    margin-top: 10px;/*para el margen derecho del conjunto de los idolos */
+
+   
+ }
+.social-icons img {
+    max-width: 40px;
+}
+
+.social-icons a:hover img {
+    transform: translateY(4px);
+}
+
+
+/* Estilos para el encabezado */
+header {
+    position: relative;
+    overflow: hidden;
+    height: 120vh;
+    width: 100%;
+    left: 1px;
+    
+}
+
+.imagen-header {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: -1;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hensa{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px; /* Opcional: agrega bordes redondeados */
+    margin-top: 130px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border: 4px solid #eb683d;
+    margin-left: 0px;
+    width: 90%;
+    color: #fff;
+    overflow: hidden; /* Para que los bordes redondeados se apliquen correctamente */
+margin-left: 60px;
+}
+
+.hensa::before{
+    text-align: center;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(2, 27, 56, 0.8); /* Fondo negro con opacidad */
+    border-radius: 10px;
+    z-index: -1;
+    
+   
+}
+.mitad{
+
+    
+    position: relative;
+    padding: 20px;
+    border-radius: 10px; /* Opcional: agrega bordes redondeados */
+    margin-top: 20px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border: 4px solid  #eb683d;
+    margin-left: 60px;
+    width: 90%;
+    color: #fff;
+    overflow: hidden; /* Para que los bordes redondeados se apliquen correctamente */
+}
+
+
+.mitad::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(2, 27, 56, 0.8); /* Fondo negro con opacidad */
+    border-radius: 10px;
+    z-index: -1;
+    
+}
+
+
+
+
+
+
+.otrasfiestas {
+    margin-left: 190px;
+    padding: 10px;
+    width: 74%;
+    font-family: Hensa;
+    color: #dbf10e;
+    background-color: rgba(17, 17, 17, 0.7); /* Fondo con opacidad */
+    font-size: 36px;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 50px;
+   /*border: 4px solid #1825e6;*/ 
+    border-radius: 15px;
+    border: 4px solid #08e613;
+}
+
+
+/*Estilos de eventos*/
+
+#eventos {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+
+#eventos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Distribuir elementos equitativamente */
+}
+
+
+#eventos li {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(12, 1, 8, 0.74); /* Cambié la opacidad aquí */
+    border: 4px solid #f35208;
+    height: 310px;
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Transición de color */
+    cursor: pointer; /* Establecer el cursor como puntero */
+}
+
+
+#eventos li:hover {
+    background-color: #1186d4; 
+    opacity: 1;
+}
+
+
+#eventos a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: inherit; /* Heredar color del texto */
+    width: 100%;
+    height: 100%;
+}
+
+#eventos h3 {
+    font-size: 20px;
+    margin-right: 10px;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#eventos h4 {
+    margin-right: 6px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+ 
+
+/* Estilos para el footer */
+
+.footer {
+    background-color: #212529;
+    height: 130px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-contact-foother {
+    display: flex;
+    align-items: center;
+}
+
+.left-message-foother {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 400px;
+}
+
+.left-message-foother p {
+    margin: 5px 0;
+}
+
+.social-icons-foother {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.left-message-foother p{
+    margin-left:10px; /* Ajusta el margen izquierdo de los párrafos */
+margin-right: 10px;
+}
+.social-icons-foother a {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s;
+    margin-right: 90px;
+}
+
+.social-icons-foother img {
+    max-width: 30px;
+}
+
+.social-icons-foother a:hover img {
+    transform: translateY(4px);
+}
+
+.logo1{
+    display: none;
+}

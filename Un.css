@@ -1,0 +1,1149 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+/* Estilos para el contenedor principal */
+
+/* Resto de tu CSS actual... */
+
+ /* Estilo para la sección de horarios y precios */
+ /* Estilo para las secciones de horarios y promociones */
+   /* Animación de fondo */
+body {
+    animation: backgroundAnimation 10s infinite alternate;
+}
+/* Estilos para el título "Galaxy Bowling" con animación */
+
+
+@keyframes backgroundAnimation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+
+/* Animación de promociones */
+.imagen img {
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.imagen:hover img {
+    transform: scale(1.1);
+}
+
+/* Animación de redes sociales */
+.social-icons a:hover img {
+    animation: bounce 0.1s ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    position: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("fondocosmic.png")no-repeat center center fixed ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("fondocosmic.png");
+    background-size: 103%;
+    z-index: -1;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+/* Estilos para el menú */
+
+/* Estilos para el menú */
+nav {
+    padding: 9px 0 5px 17px; /* Ajusta el padding en vertical y horizontal */
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+    position: fixed;
+    background: rgb(0, 0, 0, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1002;
+}
+
+
+.logo {
+    max-width: 120px; /* Ajusta el tamaño máximo del logo */
+    transition: max-width 0.3s;
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Mueve el logo hacia la derecha <<<(centro) */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye las opciones de menú */
+    flex-grow: 1; /* Permite que las opciones de menú ocupen todo el espacio restante */
+}
+
+li {
+   
+    margin-right: 45px;
+    transition: margin-top 0.3s;
+}
+
+li:hover {
+    margin-top: 5px; /* Ajusta la cantidad que deseas que bajen los elementos al pasar el mouse */
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    
+    margin-left: 60px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+   
+}
+.logo-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+/*Estilos de contacto redes sociales*/
+.social-contact {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color:/* #3f2817*/ #212529;
+    padding: 5px 10px;
+    width: 100%;
+    height: 147px;
+    
+}
+
+/* Estilos para la sección de contactos */
+/* Estilos para la sección de mensajes en columna */
+
+
+.left-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+margin-bottom: 2px;
+  margin-left: 80px;
+ 
+ }
+  /* Nueva regla para ajustar el margen inferior de los párrafos */
+  .left-message p {
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: -16px;
+
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: trasform 0.3s;
+    margin-right: 110px;
+    margin-left: -1px;/*para ajustar la ditancia entre icono*/
+    margin-top: 10px;/*para el margen derecho del conjunto de los idolos */
+
+   
+ }
+.social-icons img {
+    max-width: 40px;
+}
+
+.social-icons a:hover img {
+    transform: translateY(4px);
+}
+
+
+/* Estilos para el encabezado */
+header {
+    position: relative;
+    overflow: hidden;
+    height: 120vh;
+    width: 100%;
+    left: 1px;
+    
+}
+
+.imagen-header {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: -1;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Estilos para las redes sociales */
+
+
+
+
+
+/* Estilos para la sección de horarios y precios */
+/* Estilos para el contenedor de horarios */
+/* Estilos para el contenedor de horarios */
+/* Estilos para el contenedor diagonal */
+/* Estilos para la sección */
+
+/* Estilos para la sección */
+.horarios-precios {
+    text-align: center;
+    padding: 100px 0;
+    margin-right: 39px;
+    color: yellow;
+    
+}
+
+.horarios-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imagen-container {
+    flex: 1;
+    text-align: center;
+    margin-right: -10px;
+    
+}
+
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 54px;
+
+    border: #fff;
+}
+
+.info-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-style: bold;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.horarios-precios h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Estilos para la sección de promociones */
+/* Estilos generales */
+
+
+/* Estilos para la galería */
+
+/* Estilos para escritorio */
+/* Estilos para escritorio */
+/* Estilos para escritorio */
+/* Estilos para escritorio */
+/* Estilos para escritorio */
+/* Estilos para escritorio */
+/* Estilos para la sección de promociones */
+.promociones {
+    text-align: center;
+    padding: 0px 0;
+    color: yellow;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr)); /* Tres imágenes por fila en escritorio */
+    gap: 20px; /* Espacio entre las imágenes */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imagen {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #0fee1a;
+    border-radius: 8px;
+    transition: border-color 0.3s, opacity 0.3s;
+    
+    opacity: 1;
+}
+
+
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagen p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+
+
+/*Estilos de ubicacion*/
+.ubicacion{ 
+width: 477px;
+background-color: #000;
+color: #fff;
+font-size: 18px;
+font-style: bold;
+/*margin: 7px auto; /* Centrar horizontalmente y ajustar margen superior e inferior */
+padding: 7px;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 450px;
+box-sizing: border-box; /* Incluir el padding en el ancho total */
+padding: 15px;
+}
+
+
+/*Estilos para el mapa*/
+.mapa iframe{
+    width: 100%;
+	overflow: hidden;
+    margin-bottom: -20px;
+            max-height: 600px; 
+}
+
+
+/* Estilos pie de pagina */
+/* Estilos para el footer */
+/* Estilos para el footer */
+
+.footer {
+    background-color: #212529;
+    height: 130px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-contact-foother {
+    display: flex;
+    align-items: center;
+}
+
+.left-message-foother {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 200px;
+}
+
+.left-message-foother p {
+    margin: 5px 0;
+    
+}
+
+.social-icons-foother {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.left-message-foother p{
+    margin-left:10px; /* Ajusta el margen izquierdo de los párrafos */
+margin-right: 10px;
+}
+.social-icons-foother a {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s;
+    margin-right: 130px;
+}
+
+.social-icons-foother img {
+    max-width: 35px;
+}
+
+.social-icons-foother a:hover img {
+    transform: translateY(4px);
+}
+.logo1{
+    display: none;
+}
+
+/* Estilos para las imágenes con efecto parallax */
+
+
+
+/* Estilos para tabletas con un ancho máximo de 800px */
+
+/* Estilos para el menú en tabletas (ancho máximo de 768px) *
+
+/* Media query para tabletas */
+@media screen and (max-width: 800px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        position: cover;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: url("fondocosmic.png")no-repeat center center fixed ;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("fondocosmic.png");
+       
+        z-index: -1;
+        overflow-x: hidden;
+        width: 100%;
+        height: 190%;
+    }
+    .imagen-header {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        z-index: -1;
+        margin-bottom: 0px;
+    }
+    
+  
+    
+    
+    .imagen-container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 84px;
+    }
+.horarios-precios{
+    text-align: center;
+        padding: 100px 0;
+        margin-right: 39px;
+    margin-top: -220px;
+}
+.horarios-contenedor {
+    flex-direction: column; /* Cambiar la dirección de flexión a columna */
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+         }
+
+.imagen-container {
+    flex: 1;
+    text-align: center;
+    margin-right: -140px;
+    
+}
+.imagen-container img {
+
+    width: 70%; /* Ajusta el ancho al 70% del contenedor en tabletas */
+    max-width: none; /* Elimina la restricción de ancho máximo */
+}
+.info-box {
+   width: 100%; 
+  margin-left: 40px;
+ 
+    flex: 1;
+}
+
+
+
+    .overlay{
+        height: 70%;
+    }
+
+    /* Estilos para el menú responsive (menú de hamburguesa) */
+    #menu-responsive {
+        display: block; /* Mostrar el menú responsive solo en tabletas */
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1001;
+    }
+
+    #menu-responsive ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu-responsive li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #menu-icon {
+        display: block; /* Mostrar el icono del menú solo en tabletas */
+        font-size: 44px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+    /* Estilos para ocultar el logo original */
+    .logo {
+        display: none;
+    }
+    
+    /* Estilos para el logo en tabletas */
+    .logo-item {
+        position: relative; /* Cambia la posición a relativa para alinear el logo */
+    }
+
+    /* Estilos para el logo1 en tabletas */
+    .logo1 {
+        max-width: 80px; /* Ajusta el tamaño máximo del logo */
+        transition: max-width 0.3s, opacity 0.3s; /* Agrega transición de opacidad */
+        display: block; /* Muestra el logo por defecto */
+        margin: 0 auto; /* Centra horizontalmente */
+        text-align: center; /* Centra el contenido horizontalmente */
+        opacity: 1; /* Opacidad inicial */
+        z-index: 19; /* Asegura que el logo esté encima */
+        position: absolute; /* Cambia la posición a absoluta */
+        top: 50%; /* Coloca el logo en la mitad de la pantalla verticalmente */
+        left: 50%; /* Coloca el logo en la mitad de la pantalla horizontalmente */
+        transform: translate(-50%, -50%); /* Alinea vertical y horizontalmente el logo */
+    }
+
+    
+    /* Estilos para mostrar el menú en pantallas pequeñas */
+    #menu-list {
+        display: none; /* Oculta el menú por defecto */
+        flex-direction: column;
+        position: absolute; /* Cambia la posición a absoluta */
+        top: 60px;
+        right: 0;
+        background-color: #212529;
+        width: 300px;
+        padding: 10px;
+        transition: right 0.3s;
+        z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+    }
+
+    /* Estilos para el ícono del menú de hamburguesas */
+    .hamburger-icon {
+        font-size: 54px;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-left: auto;
+        z-index: 1005; /* Asegura que el ícono esté encima del menú */
+        color: white; /* Cambia el color del ícono a blanco */
+    }
+
+    /* Estilos para mostrar el menú al hacer clic en el ícono */
+    #menu-icon.clicked + #menu-list {
+        display: flex; /* Muestra el menú cuando se hace clic */
+        flex-direction: column;
+        align-items: flex-start; /* Muestra las opciones debajo del ícono */
+    }
+
+    #menu-list li {
+        margin: 10px 0; /* Espaciado entre las opciones */
+    }
+    
+    /* Estilos para hacer que las opciones sean rectangulares */
+    #menu-list a {
+        display: block;
+    
+        padding: 10px; /* Espaciado dentro del rectángulo */
+        border: 1px solid white; /* Borde blanco */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    /* Cambiar el color de fondo y el color del texto al pasar el mouse */
+    #menu-list a:hover {
+        background-color: white; /* Fondo blanco al pasar el mouse */
+        color: #212529; /* Texto oscuro al pasar el mouse */
+
+      }    
+.social-contact {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:/* #3f2817*/ #212529;
+    padding: 5px 10px;
+    width: 100%;
+    height: 135px;
+    
+}
+
+/* Estilos para la sección de contactos */
+/* Estilos para la sección de mensajes en columna */
+
+
+.left-message {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+margin-bottom: 10px;
+  margin-left: 50px;
+ 
+ }
+  /* Nueva regla para ajustar el margen inferior de los párrafos */
+  .left-message p {
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-left: -16px;
+
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s;
+    margin-right: 120px;
+    margin-left: -40px;/*para ajustar la ditancia entre icono*/
+    margin-top: 10px;/*para el margen derecho del conjunto de los idolos */
+
+   
+ }
+.social-icons img {
+    max-width: 30px;
+}
+
+.social-icons a:hover img {
+    transform: translateY(4px);
+
+
+}
+
+
+/* Estilos para las promociones */
+
+/* Estilos para las promociones */
+/* Estilos para las promociones */
+.galeria {
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr)); /* Dos imágenes por fila en tabletas */
+    margin: 0px 0px; /* Margen a los lados del bloque de imágenes en tabletas */
+    margin-left: 5px;
+    margin-right: 20px;
+
+
+}
+
+
+.imagen{
+    height: 100%;
+    margin-bottom: 31px;
+margin-top: 12px;
+}
+
+.promociones{
+    margin-left: 12px;
+}
+/* Establece la altura del mapa por defecto y la transición */
+.mapa-container {
+    max-height: 100%;
+    width: 100%;
+    transition: max-height 0.3s;
+}
+
+/* Establece la altura del mapa cuando se selecciona "Ubicación" */
+.mapa-container.mapa-grande {
+    max-height: 600px;
+    text-align: center;
+}
+
+/* Estilos para las promociones */
+
+/*Ubicacion*/
+.ubicacion {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Ajusta los elementos del footer y contacto para dispositivos móviles */
+.left-message-foother {
+    height: auto;
+    margin-left: 5px;
+    margin-right: 60px;
+    align-items: center;
+    margin-top: 18px;
+  }
+
+  .social-icons-foother {
+    margin-left: 5px;
+  }
+  .social-icons-foother a {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s;
+    margin-right: 70px;
+}
+    /* Estilos para dispositivos móviles (ancho de pantalla igual o inferior a 478px) */
+ }
+
+
+/* Estilos para el menú en tamaños de pantalla más grandes (ancho mínimo de 769px) */
+@media screen and (min-width: 801px) {
+    #menu-list {
+        display: flex !important; /* Asegura que el menú esté visible */
+        flex-direction: row; /* Ajusta la dirección del menú a horizontal */
+        background-color: transparent; /* Opcional: Puedes cambiar el fondo si es necesario */
+        position: relative; /* Cambia la posición de vuelta a relativa */
+        top: auto; /* Restaura la posición vertical */
+   }
+
+    .hamburger-icon {
+        display: none; /* Oculta el ícono de hamburguesa en tamaños grandes */
+        right: auto; /* Restaura la posición horizontal */
+        width: auto; /* Restaura el ancho */
+   
+    } 
+   
+}
+    /* Estilos para escritorio */
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    
+
+    body {
+        font-family: Arial, sans-serif;
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+        
+        background-size: cover;
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    z-index: -1;
+    }
+   
+   
+     /* Ajusta el tamaño de los elementos .column para que ocupen todo el ancho */
+    
+     /* Estilos para el menú responsive (menú de hamburguesa) */
+     #menu-responsive {
+        display: block; /* Mostrar el menú responsive solo en tabletas */
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1001;
+    }
+
+    #menu-responsive ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu-responsive li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #menu-icon {
+        display: block; /* Mostrar el icono del menú solo en tabletas */
+        font-size: 44px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+    /* Estilos para ocultar el logo original */
+    .logo {
+        display: none;
+    }
+    
+    /* Estilos para el logo en tabletas */
+    .logo-item {
+        position: relative; /* Cambia la posición a relativa para alinear el logo */
+    }
+
+    /* Estilos para el logo1 en tabletas */
+    .logo1 {
+        max-width: 80px; /* Ajusta el tamaño máximo del logo */
+        transition: max-width 0.3s, opacity 0.3s; /* Agrega transición de opacidad */
+        display: block; /* Muestra el logo por defecto */
+        margin: 0 auto; /* Centra horizontalmente */
+        text-align: center; /* Centra el contenido horizontalmente */
+        opacity: 1; /* Opacidad inicial */
+        z-index: 19; /* Asegura que el logo esté encima */
+        position: absolute; /* Cambia la posición a absoluta */
+        top: 50%; /* Coloca el logo en la mitad de la pantalla verticalmente */
+        left: 50%; /* Coloca el logo en la mitad de la pantalla horizontalmente */
+        transform: translate(-50%, -50%); /* Alinea vertical y horizontalmente el logo */
+    }
+
+    
+    /* Estilos para mostrar el menú en pantallas pequeñas */
+    #menu-list {
+        display: none; /* Oculta el menú por defecto */
+        flex-direction: column;
+        position: absolute; /* Cambia la posición a absoluta */
+        top: 60px;
+        right: 0;
+        background-color: #212529;
+        width: 200px;
+        padding: 10px;
+        transition: right 0.3s;
+        z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+    }
+
+    /* Estilos para el ícono del menú de hamburguesas */
+    .hamburger-icon {
+        font-size: 54px;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-left: auto;
+        z-index: 1005; /* Asegura que el ícono esté encima del menú */
+        color: white; /* Cambia el color del ícono a blanco */
+    }
+
+    /* Estilos para mostrar el menú al hacer clic en el ícono */
+    #menu-icon.clicked + #menu-list {
+        display: flex; /* Muestra el menú cuando se hace clic */
+        flex-direction: column;
+        align-items: flex-start; /* Muestra las opciones debajo del ícono */
+    }
+
+    #menu-list li {
+        margin: 10px 0; /* Espaciado entre las opciones */
+    }
+    
+    /* Estilos para hacer que las opciones sean rectangulares */
+    #menu-list a {
+        display: block;
+        padding: 10px; /* Espaciado dentro del rectángulo */
+        border: 1px solid white; /* Borde blanco */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    /* Cambiar el color de fondo y el color del texto al pasar el mouse */
+    #menu-list a:hover {
+        background-color: white; /* Fondo blanco al pasar el mouse */
+        color: #212529; /* Texto oscuro al pasar el mouse */
+
+      }   
+    
+    /* Estilos para la sección de contactos y redes sociales */
+    .social-contact {
+        position: static;
+        font-size: 11px;
+        height: 100px;
+        width: 100%; /* Ancho completo en tabletas */
+        display: flex;
+        justify-content: space-between; /* Centra horizontalmente los elementos */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 4px; /* Ajusta el espaciado interno */
+    }
+
+    .left-message {
+        font-size: 11px; /* Ajuste de tamaño de fuente en tabletas */
+        margin: 0; /* Elimina los márgenes para que se ajuste al ancho completo */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        margin-left: 29px;
+        margin-bottom: 4px;
+    }
+
+    .social-icons {
+        display: inline-flex;
+        align-items: center;
+        margin-top: 4px; /* Ajuste el margen superior */
+        margin-left: 0; /* Elimina el margen izquierdo */
+        margin-right: 20px;
+    }
+
+    .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        transition: transform 0.3s;
+        margin-right: 9px;
+        margin-left: 0;
+        margin-bottom: 8px;
+        /* Ajuste el margen derecho entre los íconos */
+    }
+
+    .social-icons img {
+        max-width: 20px; /* Ajuste el tamaño máximo de los íconos */
+    
+    }
+ 
+    nav {
+        padding: 2px 0px;
+     justify-content: center;
+     align-items: center;
+font-size: 11px;
+position: fixed;
+width: 100%;
+margin-right: 6px;
+    
+    }
+
+    .logo {
+        max-width: 45px; /* Ajuste de tamaño de logo en tabletas */
+        margin-left: 17px;
+        margin-right: 4px;
+    }
+
+    ul {
+        
+        display: flex; /* Muestra el menú en tabletas */
+        align-items: center; /* Centra verticalmente las opciones del menú */
+       /* justify-content: center; /* Centra horizontalmente las opciones del menú */
+        display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+    
+    li{
+        margin: 0 2px;
+ }
+
+
+  a{
+    font-size: 10px;
+
+  }
+
+ nav a {
+     /* Ajuste de margen izquierdo en tabletas */
+    margin-left: 7px;
+ }
+
+ /*header*/
+ header {
+    position: relative;
+    overflow: hidden;
+    height: 120vh;
+    width: 100%;
+    left: 1px;
+    z-index: 4;
+}
+
+.imagen-header {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+}
+.overlay{
+    height: 50%;
+
+    /*Estilos horarios y precios celular*/
+}
+.horarios-precios{
+    margin-top: -290px;
+}
+
+
+
+.imagen-container {
+    flex: 1;
+    text-align: center;
+    margin-right: -39px;
+}
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 74px;
+     }
+     .info-box{ 
+      width: 100%;
+      margin-left: 15px;
+     
+        flex: 1;
+    }
+ /*Estilos promociones dispositivos moviles*/
+ /*Para poner una imagen bajo la otra*/
+ .galeria {
+    grid-template-columns: 1fr; /* Una imagen por fila en dispositivos móviles */
+    margin: 7px 7px; /* Margen a los lados de cada imagen en dispositivos móviles */
+}
+
+/* Estilos para las columnas en dispositivos móviles */
+
+
+
+/* Añadir margen inferior solo a las imágenes, no a las columnas */
+
+
+
+ /* Ajusta la ubicación para dispositivos móviles */
+
+ .ubicacion{
+    width: 100%;
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center;
+    margin-top: 7px; /* Ajusta el margen superior */
+    margin-bottom: 7px; /* Ajusta el margen inferior */
+    padding: 7px;
+ }
+
+  /* Ajusta el mapa para dispositivos móviles */
+  .mapa {
+    height: 600px;
+    max-height: 100%;
+    width: 100%;
+}
+
+  /* Ajusta los elementos del footer y contacto para dispositivos móviles */
+  .left-message-foother {
+    font-size: 11px; /* Ajuste de tamaño de fuente en tabletas */
+    margin: 0; /* Elimina los márgenes para que se ajuste al ancho completo */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    margin-left: 9px;
+    margin-bottom: 4px;
+ }
+  .social-icons-foother {
+    margin-left: 1px;
+  }
+
+  .social-icons-foother a {
+
+display: inline-flex;
+align-items: center;
+margin-top: 4px; /* Ajuste el margen superior */
+margin-left: 10px; /* Elimina el margen izquierdo */
+margin-right: 10px;
+  }
+ 
+}
+   
+
+
+
+@media screen and (max-width: 375px){
+    .imagen-container {
+        flex: 1;
+        text-align: center;
+        margin-right: -33px;
+        margin-left: 5px;
+        
+    }
+    .imagen-container img {
+        width: 140%;
+        height: auto;
+        display: block;
+        margin: 0 0px;
+         }
+         .info-box{ 
+          width: 113%;
+          margin-left: 19px;
+         
+            flex: 1;
+        }
+        .ubicacion{
+            margin-top: 20px;
+        }
+    
+
+        
+          .social-icons-foother {
+            margin-left: 150px;
+          }
+ 
+
+  .social-icons-foother a {
+
+display: inline-flex;
+align-items: center;
+margin-top: 4px; /* Ajuste el margen superior */
+margin-left: -60px; /* Elimina el margen izquierdo */
+margin-right: -10px;
+  }
+ 
+}
